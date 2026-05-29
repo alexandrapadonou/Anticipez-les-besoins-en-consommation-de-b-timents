@@ -1,5 +1,15 @@
 # Anticipation des consommations d'énergie et des émissions de CO₂ des bâtiments de Seattle
 
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-1.x-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-1.x-013243?logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557C)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.11+-4C72B0)
+![scikit-learn](https://img.shields.io/badge/Scikit--learn-1.x-F7931E?logo=scikit-learn&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-latest-2EA44F)
+![LIME](https://img.shields.io/badge/LIME-latest-FF6F00)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+
 Projet d'analyse et de modélisation visant à prédire la **consommation énergétique** et les **émissions de gaz à effet de serre (GES)** des bâtiments **non résidentiels** de la ville de Seattle, à partir de leurs caractéristiques structurelles (type, surface, nombre d'étages, année de construction, quartier, etc.).
 
 L'objectif est d'éviter à la ville d'avoir à réaliser des relevés coûteux et chronophages, en estimant ces valeurs directement à partir des données déclaratives des bâtiments.
