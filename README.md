@@ -26,7 +26,7 @@ L'objectif est d'éviter à la ville d'avoir à réaliser des relevés coûteux 
 ## Structure du projet
 
 ```
-projet3/
+
 ├── Padonou_Alexandra_1_notebook_exploratoire_012025.ipynb   # Analyse exploratoire & nettoyage
 ├── Padonou_Alexandra_2_notebook_prediction_012025.ipynb     # Prédiction de la consommation d'énergie
 ├── Padonou_Alexandra_3_notebook_prediction_012025.ipynb     # Prédiction de l'intensité des émissions de GES
@@ -37,7 +37,7 @@ projet3/
 
 > Les fichiers `building.csv` et `bâtiments_non_résidentiels.csv` sont des exports intermédiaires/optionnels du travail.
 
-## Notebook 1 — Analyse exploratoire des données (AED)
+## Notebook 1 - Analyse exploratoire des données (AED)
 
 Notebook : `Padonou_Alexandra_1_notebook_exploratoire_012025.ipynb`
 
@@ -56,7 +56,7 @@ Objectifs : comprendre les données, identifier les tendances et corriger les pr
 - **Variables cibles** : mise en évidence d'une distribution asymétrique et vérification de l'effet d'une **transformation logarithmique** (`log1p`).
 - **Sortie** : export du jeu nettoyé dans `AED_building.csv`.
 
-## Notebooks 2 & 3 — Modélisation
+## Notebooks 2 & 3 - Modélisation
 
 Les deux notebooks suivent la même démarche, mais ciblent une variable différente :
 - **Notebook 2** → prédiction de `SiteEnergyUseWN(kBtu)` (consommation d'énergie).
@@ -117,9 +117,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn shap lime jupyter
 
 Exécuter les notebooks **dans l'ordre** :
 
-1. `Padonou_Alexandra_1_notebook_exploratoire_012025.ipynb` — génère `AED_building.csv`.
-2. `Padonou_Alexandra_2_notebook_prediction_012025.ipynb` — prédiction de la consommation d'énergie.
-3. `Padonou_Alexandra_3_notebook_prediction_012025.ipynb` — prédiction de l'intensité des émissions de GES.
+1. `Padonou_Alexandra_1_notebook_exploratoire_012025.ipynb` - génère `AED_building.csv`.
+2. `Padonou_Alexandra_2_notebook_prediction_012025.ipynb` - prédiction de la consommation d'énergie.
+3. `Padonou_Alexandra_3_notebook_prediction_012025.ipynb` - prédiction de l'intensité des émissions de GES.
 
 ```bash
 jupyter notebook
@@ -129,4 +129,4 @@ jupyter notebook
 
 ## Auteur
 
-Alexandra Padonou — Projet OpenClassrooms.
+Alexandra Padonou - Projet OpenClassrooms.
