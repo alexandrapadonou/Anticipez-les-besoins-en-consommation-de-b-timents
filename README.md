@@ -16,8 +16,8 @@ L'objectif est d'éviter à la ville d'avoir à réaliser des relevés coûteux 
 
 ## Données
 
-- **Source** : [2016 Building Energy Benchmarking – City of Seattle](https://data.seattle.gov/Built-Environment/2016-Building-Energy-Benchmarking/2bpz-gwpy/about_data)
-- **Fichier brut** : `2016_Building_Energy_Benchmarking.csv`
+- **Source** : [2016 Building Energy Benchmarking – City of Seattle](https://data.seattle.gov/Built-Environment/Building-Energy-Benchmarking-Data-2015-Present/teqw-tu6e/about_data)
+- **Fichier brut** : [2016_Building_Energy_Benchmarking.csv](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/Data_Scientist_P4/2016_Building_Energy_Benchmarking.csv)
 - Chaque ligne correspond à un bâtiment / une propriété et décrit son identification, ses caractéristiques physiques, sa consommation d'énergie, sa performance énergétique et ses émissions de GES.
 
 ### Cibles prédites
